@@ -1,0 +1,22 @@
+.WinPercentPieChart {
+    color: wheat;
+    transition: transform 250ms, opacity 400ms;
+    background: linear-gradient(
+        136deg,rgba(0,76,147,.85),rgba(71,165,252,.85));
+    border-radius: 10px;
+    height: 250px;
+
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
+    padding: 10px;
+    padding-bottom: 30px;
+    align-self: start;
+    margin-top: 0px;
+    }
+
+.WinPercentPieChart:hover {
+    background-color: lightsalmon;
+    transform: scale(1.08);
+    opacity: 0.8;
+}

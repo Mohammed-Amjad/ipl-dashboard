@@ -1,0 +1,25 @@
+
+    .opponentTile {
+        display: grid;
+        grid-template-columns: 0.2fr 3fr 1fr;
+        text-align: center;
+    
+        .few-details {
+            text-align: center;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+    
+            & > h2 > a {
+                color: wheat;
+            }
+    
+            .opponent-team-name,.winner {
+                transition: transform 250ms, opacity 400ms;
+            }
+    
+            .opponent-team-name:hover,.winner:hover {
+                transform: scaleX(1.05);
+                opacity: 0.9;
+            }
+        }
+    }

@@ -1,0 +1,62 @@
+.App {
+  padding: 20px;
+  color: wheat;
+}
+
+.matchWon {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+
+.matchLost {
+  color: red;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.vs {
+  font-size: 1rem;
+  color: wheat;
+}
+
+.chennai, .gujarat {
+  background: linear-gradient(
+      136deg,rgba(253,185,19,.85),rgba(255,186,146,.85));
+}
+
+.delhi {
+  background: linear-gradient(
+      136deg,rgba(0,76,147,.85),rgba(71,165,252,.85));
+}
+
+.kolkata, .pune {
+  background: linear-gradient(
+      136deg,rgba(112,69,143,.85),rgba(139,81,191,.85));
+}
+
+.mumbai {
+  background: linear-gradient(
+      136deg,rgba(0,93,160,.85),rgba(0,148,252,.85));;
+}
+
+.kings {
+  background: linear-gradient(
+      136deg,rgba(170,69,69,.85),rgba(235,52,45,.85))
+}
+
+.rajasthan, .deccan {
+  background: linear-gradient(
+      136deg,rgba(45,77,157,.85),rgba(62,109,208,.85));
+}
+
+.royal, .kochi {
+  background: linear-gradient(
+      136deg,rgba(0,0,0,.85),hsla(0,0%,58%,.85));
+}
+
+.sunrisers, .rising {
+  background: linear-gradient(
+      136deg,rgba(251,100,62,.85),rgba(236,129,135,.85));
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+body {
+  font-family: 'Playfair Display', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 800px;
+  margin: 0 auto;
+  background : #09203f; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

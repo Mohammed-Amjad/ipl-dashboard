@@ -1,0 +1,15 @@
+.logo {
+    height: 140px;
+    width: 140px;
+    align-self: center;
+    justify-self: end;
+    margin: 15px;
+    border-radius: 80px;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.logo:hover {
+    background-color: lightsalmon;
+    transform: scale(1.1);
+    opacity: 0.95;
+}
