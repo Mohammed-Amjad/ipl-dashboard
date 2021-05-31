@@ -1,20 +1,17 @@
 .TeamPage {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.8fr 1.2fr 0.8fr;
     grid-column-gap: 10px;
     grid-row-gap: 5px;
-    min-width: 500px;
 
     .nav-bar {
-        grid-column: span 4;
+        grid-column: span 3;
         display: flex;
-        justify-content: space-between;
         background: linear-gradient(
             136deg, rgba(251, 100, 62, 0.85), rgba(236, 129, 135, 0.85)); 
         align-items: center;
         padding-left: 20px;
-        padding-right: 20px;
         box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
         border-radius: 5px;
         margin-bottom: 5px;
@@ -44,13 +41,12 @@
     }
 
     .win-loss-section {
-        grid-column: span 2;
-        justify-self: center;
+        justify-self: end;
         align-self: center;
     }
 
     .full-match-section {
-        grid-column: span 4;
+        grid-column: span 3;
         justify-self: start;
         & > h2 {
             color: black;
@@ -58,38 +54,26 @@
         }
     }
 
-    .TeamTile {
-        display: grid;
-        grid-template-rows: 1fr 5fr;
-        border: 1px solid gold;
-        width: fit-content;
-        text-align: center;
-        align-self: center;
-        align-items: center;
-        justify-content: center;
-        transition: transform 250ms, opacity 400ms;
-        border-radius: 10px;
-        color: white;
-        padding-left: 20px;
-    
-        box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
-        -webkit-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
-        -moz-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.4);
-        
-        .logo {
-            height: 140px;
-            width: 140px;
-            align-self: center;
-            justify-self: end;
-            margin-right: 5px;
-            margin: 5px;
-            border-radius: 80px;
-        }
-    }
+    @media only screen and (max-width: 500px) {
+        max-width: 400px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 0.8fr 1.4fr 0.8fr 0.8fr;
+        grid-gap: 5px;
 
-    .TeamTile:hover {
-        background-color: lightsalmon;
-        transform: scale(1.08);
-        opacity: 0.8;
+        .nav-bar {
+            grid-column: span 2;
+            font-size: 1rem;
+            padding-bottom: 5px;
+            height: 25px;
+        }
+    
+        .team-name-section {
+            grid-column: span 1;
+        }
+
+        .full-match-section {
+            grid-column: span 2;
+            width: 400px;
+        }
     }
 }

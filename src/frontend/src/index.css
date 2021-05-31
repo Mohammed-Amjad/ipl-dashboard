@@ -17,6 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 800px;
+  min-width: 280px;
   margin: 0 auto;
   background : #09203f; 
 }

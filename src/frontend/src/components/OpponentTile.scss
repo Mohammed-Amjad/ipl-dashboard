@@ -22,4 +22,25 @@
                 opacity: 0.9;
             }
         }
+
+        @media only screen and (max-width: 500px) {
+            .opponent-team-name {
+                & > a {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .few-details {
+                grid-template-rows: 1fr 0.5fr;
+
+                .winner {
+                    font-size: 1rem;
+                }
+            }
+
+            .logo {
+                height: 100px;
+                width: 100px;
+            }
+        }
     }

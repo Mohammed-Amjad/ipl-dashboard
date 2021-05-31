@@ -13,7 +13,7 @@ export const TeamPageHeading = ({ team }) => {
         <div className={`TeamPageHeading ${team.teamName.toLowerCase().split(' ')[0]}`}>
             <TeamLogo teamName={teamName} />
             <div className="team-details">
-                <h1>{teamName}</h1>
+                <h1 className="teamName">{teamName}</h1>
                 <div className="extra-details">
                     <p>Total Matches: {totalMatches}</p>
                     <p>Matches won: {matchesWon}</p>

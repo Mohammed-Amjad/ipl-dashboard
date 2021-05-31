@@ -50,7 +50,7 @@ public class TeamController {
             return ResponseEntity.badRequest().body("Team does not have any match.");
         }
 
-        team.setMatches(this.matchRepository.getLatestFewMatchesOfTeam(teamName, 5));
+        team.setMatches(this.matchRepository.getLatestFewMatchesOfTeam(teamName, 4));
 
         return ResponseEntity.ok().body(team);
     }

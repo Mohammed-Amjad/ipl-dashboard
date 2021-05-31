@@ -13,7 +13,11 @@
     padding-bottom: 30px;
     align-self: start;
     margin-top: 0px;
+
+    @media only screen and (max-width: 500px) {
+        width: 150px;
     }
+}
 
 .WinPercentPieChart:hover {
     background-color: lightsalmon;
