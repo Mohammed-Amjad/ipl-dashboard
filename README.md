@@ -6,4 +6,4 @@ Live Demo -> https://ipl-dashboard-of-amjad.herokuapp.com/
 1. mvn clean install
 2. heroku login
 3. heroku plugins:install java
-3. heroku deploy:jar target/ipl-dashboard-0.0.1-SNAPSHOT.jar --app ipl-dashboard-of-amjad
+3. heroku deploy:jar target/app.jar --app appName
