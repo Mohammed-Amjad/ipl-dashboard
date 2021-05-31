@@ -46,8 +46,7 @@ export const MatchPage = () => {
   }
 
   const filteredMatches = matches.filter(match =>
-    match.team1.toLowerCase().includes(searchText.toLowerCase())
-    || match.team2.toLowerCase().includes(searchText.toLowerCase()));
+    match.team1.toLowerCase().includes(searchText.toLowerCase()));
 
   return (
     <div className="MatchPage">
