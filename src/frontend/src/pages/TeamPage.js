@@ -47,7 +47,9 @@ export const TeamPage = () => {
         <TeamPageHeading team={team} />
       </div>
       <div className="win-loss-section">
-        <WinPercentPieChart winPercent={winPercent} />
+        <Link to={`/${teamName}/matches/${team.lastPlayedOn.slice(0, 4)}`}>
+          <WinPercentPieChart winPercent={winPercent} />
+        </Link>
       </div>
       <div className="full-match-section">
         <h3>Latest Matches</h3>
