@@ -1,5 +1,5 @@
 # ipl-dashboard
-Live Demo -> https://ipl-dashboard-of-amjad.herokuapp.com/
+Live Demo -> https://ipl-matches.herokuapp.com/
 
 #Deployment on Heroku using CLI
 
