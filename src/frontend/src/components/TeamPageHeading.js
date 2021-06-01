@@ -22,7 +22,7 @@ export const TeamPageHeading = ({ team }) => {
                 </div>
                 <div className="more-link">
                     <Link to={`/${teamName}/matches/${lastPlayedOn.slice(0, 4)}`}>
-                        <h4>View all {`->`}</h4>
+                        <h4>View all{`->`}</h4>
                     </Link>
                 </div>
             </div>
